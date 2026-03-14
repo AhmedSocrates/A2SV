@@ -10,11 +10,11 @@ for day in range(days):
 
     for val in day_seen:
         count[val] = count.get(val, 0) + 1  
-    
-rcp = (80*days + 99) // 100 
+    print(count)
+rcp = (80*days) // 100 
 
 for v in count.values():
-    if v >= rcp:
+    if v > rcp:
         print("YES")
         break
 else:
