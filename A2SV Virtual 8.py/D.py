@@ -20,3 +20,4 @@ for _ in range(t):
         if not ok:
             break 
     print("YES" if ok else "NO")
+    
